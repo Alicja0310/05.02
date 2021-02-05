@@ -2,14 +2,44 @@ body {
     background-color: black;
 }
 
+img{
+    width: 100%;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 70px;
+}
+
+.text0{
+    color: rgb(174, 187, 143);
+    text-align: center;
+    font-size: 30px;
+}
+
+.icons{
+    margin-left: 100px;
+}
+
+.logo{
+    width: 120px;
+    height: 110px;
+}
+
+.icon1{
+    width: 60px;
+    height: 60px;
+}
+
 .nav1{
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 7px;
     grid-template-columns: auto auto auto auto auto;
     height: 40px;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 .btn1 {
@@ -18,16 +48,21 @@ body {
     color: rgba(184, 223, 162, 0.8);
     text-align: center;
     font-size: 16px;
-    width: 150px;
+    width: 120px;
+}
+
+.btn0 {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 16px;
+    width: 120px;
 }
 
 .btn1:hover {
     color: rgb(81, 204, 44);
     border-bottom: 2px solid rgb(81, 204, 44);
-}
-
-img{
-    width: 100%;
 }
 
 .img3{
@@ -80,16 +115,22 @@ img{
 .grid2{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .text5{
     color: white;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .text6{
     color: white;
-    font-size: 15px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 22px;
+    padding-top: 20px;
 }
 
 .left-column{
@@ -98,4 +139,13 @@ img{
 
 .right-column{
     margin-left: 15px;
+}
+
+.bottom-border{
+    padding-bottom: 40px;
+    border-bottom: 3px solid rgb(177, 175, 175);
+}
+
+.img4{
+    margin-top: 50px;
 }
