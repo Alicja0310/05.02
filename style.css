@@ -60,6 +60,10 @@ img{
     width: 120px;
 }
 
+.btn0:hover{
+    color: white;
+}
+
 .btn1:hover {
     color: rgb(81, 204, 44);
     border-bottom: 2px solid rgb(81, 204, 44);
